@@ -24,6 +24,7 @@ This is a project starter template for web projects with Parcel bundler. It incl
     git clone https://github.com/MichalTalaga17/project-starter.git
     cd project-starter
 2. Install the project dependencies:
+   
     ```bash
     npm install
 
@@ -33,12 +34,14 @@ You can use this project starter by following these simple steps:
 
 
 1. Start the development server:
+   
     ```bash
     npm start
     
 2. Open your web browser and navigate to http://localhost:1234 to see your project in action.
 3. Make changes to your source files in the src/ directory, and the development server will automatically reload your project.
 4. When you're ready to build for production, use the following command:
+   
     ```bash
     npm run build
     
