@@ -2,13 +2,17 @@
   "name": "starter",
   "version": "1.0.0",
   "description": "starter for web projects with parcel",
-  "main": "src/index.html",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel",
+    "build": "parcel build",
+    "watch": "parcel watch"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MichalTalaga17/projects-starter.git"
+    "url": "git+https://github.com/MichalTalaga17/project-starter.git"
   },
   "keywords": [
     "starter",
@@ -18,7 +22,12 @@
   "author": "Michal Talaga",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MichalTalaga17/projects-starter/issues"
+    "url": "https://github.com/MichalTalaga17/project-starter/issues"
   },
-  "homepage": "https://github.com/MichalTalaga17/projects-starter#readme"
+  "homepage": "https://github.com/MichalTalaga17/project-starter#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.10.0",
+    "parcel": "latest",
+    "sass": "latest"
+  }
 }
