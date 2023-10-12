@@ -5,8 +5,9 @@
   "source": "src/index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build",
+    "reset": "rimraf dist && rimraf .cache",
+    "start": "rimraf dist && parcel ",
+    "build": "rimraf dist && parcel build",
     "watch": "parcel watch"
   },
   "repository": {
@@ -25,8 +26,10 @@
   },
   "homepage": "https://github.com/MichalTalaga17/project-starter#readme",
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.10.0",
+    "@parcel/transformer-sass": "latest",
     "parcel": "latest",
-    "sass": "latest"
+    "sass": "latest",
+    "rimraf": "latest",
+    "autoprefixer": "latest"
   }
 }
